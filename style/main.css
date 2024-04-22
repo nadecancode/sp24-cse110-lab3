@@ -2,7 +2,6 @@
     --main-bg-color: cornflowerblue;
 
     font-family: "JetBrains Mono", monospace;
-    font-optical-sizing: auto;
     font-style: normal;
 }
 
@@ -36,7 +35,7 @@ summary[red] {
     margin-top: 5px;
     margin-bottom: 5px;
     color: #0066CC;
-    background: hsl(120 0 25);
+    background-color: hsl(120 20% 25%);
 
     border-style: solid;
     border-radius: 5px;
@@ -117,6 +116,6 @@ header:has(+ hr) {
 
 nav {
     a {
-        font-size: x-large;
+        font-size: large;
     }
 }
