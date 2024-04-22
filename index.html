@@ -8,13 +8,18 @@
     <meta name="author" content="Allen Zhang">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/879/favicon.ico">
+    <link rel="stylesheet" href="style/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Project <span>Omega</span></h1>
+        <h1 class="title">Project <span>Omega</span></h1>
         <h2>Meeting #420 | Brainstorming</h2>
         <h3>April 9th, 2024</h3>
-        <nav>
+        <nav id="navigation">
             <a href="#attendance">Attendance</a>
             <a href="#agenda">Agenda</a>
             <a href="#unfinished-business">Unfinished Business</a>
@@ -26,7 +31,7 @@
     </header>
     <hr/>
 
-    <details>
+    <details id="summary">
         <summary>Meeting Summary</summary>
         Talked about ideas for Milestone #70 mainly on top of Milestone #69 presentation
     </details>
@@ -63,21 +68,22 @@
         </section>
         <hr/>
 
-        <section id="agenda">
-            <h2>Agenda</h2>
-            <ol>
-                <li>Developer F presents his work on <strong>Milestone #69</strong></li>
-                <li>Developer A presents his work on <strong>Milestone #69</strong></li>
-            </ol>
-        </section>
+        <div id="agenda-business-container">
+            <section id="agenda">
+                <h2>Agenda</h2>
+                <ol>
+                    <li>Developer F presents his work on <strong>Milestone #69</strong></li>
+                    <li>Developer A presents his work on <strong>Milestone #69</strong></li>
+                </ol>
+            </section>
 
-        <hr/>
-        <section id="unfinished-business">
-            <h2>Unfinished Business from Last Meeting</h2>
-            <ul>
-                <li><b>Developer D's presentation due to his sickness</b></li>
-            </ul>
-        </section>
+            <section id="unfinished-business">
+                <h2>Unfinished Business from Last Meeting</h2>
+                <ul>
+                    <li><b>Developer D's presentation due to his sickness</b></li>
+                </ul>
+            </section>
+        </div>
 
         <hr/>
 
@@ -102,7 +108,7 @@
 
         <section id="diagrams">
             <h2>Diagrams</h2>
-            <img src="screenshots/diagram-1.png" alt="Milestone #70 Design Diagram"/>
+            <img id="diagram" src="screenshots/diagram-1.png" alt="Milestone #70 Design Diagram"/>
         </section>
         <hr/>
 
@@ -121,7 +127,7 @@
         <p>Project Omega 2024</p>
     </footer>
 
-    <form>
+    <form id="form-experiment">
         <fieldset>
             <legend>Field Set</legend>
 
