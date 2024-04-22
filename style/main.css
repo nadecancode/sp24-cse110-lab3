@@ -115,7 +115,7 @@ header:has(+ hr) {
 }
 
 nav {
-    a {
+    & a {
         font-size: large;
     }
 }
