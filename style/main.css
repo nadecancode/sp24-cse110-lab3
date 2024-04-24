@@ -63,6 +63,7 @@ summary[red] {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 form {
@@ -80,6 +81,7 @@ section #diagram {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
+        grid-area: row-start;
     }
 }
 
