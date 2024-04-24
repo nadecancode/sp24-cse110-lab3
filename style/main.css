@@ -70,7 +70,7 @@ form {
     display: none;
 }
 
-section #diagram {
+section.diagram {
     width: 50%;
     max-width: 50%;
     height: 10%;
