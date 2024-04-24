@@ -71,8 +71,9 @@ form {
 }
 
 section #diagram {
-    width: 500px;
-    height: 500px;
+    width: 50%;
+    max-width: 50%;
+    height: 10%;
     display: inline;
 }
 
