@@ -62,7 +62,7 @@ summary[red] {
 #vid-aud-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: flex-start;
 }
 
