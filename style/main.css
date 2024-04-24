@@ -72,6 +72,7 @@ form {
 section #diagram {
     width: 500px;
     height: 500px;
+    display: inline;
 }
 
 @media (max-width: 1250px) {
